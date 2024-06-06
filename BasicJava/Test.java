@@ -10,6 +10,7 @@ public class Test {
 
         Recursion callRecursion = new Recursion();
         System.out.println(callRecursion.goToPrint(1));
+        System.out.println("Done");
 
         //Get User Input
 
