@@ -1,6 +1,5 @@
 
-package Assignment;
-import java.util.Scanner;
+package Assignment.Assignment1;
 
 public class Test extends Q1 {
 

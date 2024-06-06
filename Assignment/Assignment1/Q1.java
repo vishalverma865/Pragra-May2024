@@ -3,8 +3,9 @@
  Grade Score A: 90-100 B: 80-89 C: 70-79 D: 60-69 F: Below 60
 */
 
-package Assignment;
+package Assignment.Assignment1;
 import java.util.Scanner;
+
 public class Q1 {
 
      public static char Grade(int score) {
