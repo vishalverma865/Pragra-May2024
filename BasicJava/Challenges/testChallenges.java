@@ -6,6 +6,7 @@ public class testChallenges {
     StringChallenges strObj = new StringChallenges();
 
     System.out.println(strObj.endsLy("Hello"));
+     System.out.println(strObj.endsLy("Hello"));        //Testing Version 1
     }
 
 
