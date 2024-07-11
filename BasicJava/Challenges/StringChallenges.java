@@ -82,6 +82,83 @@ right2("Hi") → "Hi"
 
 
 
+    public String withoutX2(String str) {
+
+        if(str.substring(0,1).equals("x") && str.substring(1,2).equals("x")) {
+            System.out.println("1st");
+            return str.substring(2, str.length());
+
+        }
+        else if(str.substring(0,1).equals("x")) {
+            System.out.println("2nd");
+            return str.substring(1, str.length());
+        }
+
+        else if(str.substring(1,2).equals("x")) {
+            System.out.println("3rd");
+            return  str.substring(0,1) + str.substring(3, str.length());
+        }
+        else {
+            return str;
+        }
+
+    }
+    public String doubleChar(String str) {
+StringBuffer strArray = new StringBuffer();
+        for(int i = 0; i < str.length(); i++) {
+        strArray.append(str.substring(i,i+1) + str.substring(i,i+1));
+        }
+
+        return strArray.toString();
+    }
+//Alternate of String Buffer
+    public String doubleCharr(String str) {
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            result = result + str.charAt(i) + str.charAt(i);
+            // Alternately:
+            // result = result + str.substring(i, i+1) + str.substring(i, i+1);
+        }
+        return result;
+    }
+
+
+
+    public int countHi(String str) {
+        int count = 0;
+        for(int i = 0; i < str.length()-1; i++) {
+            if (str.charAt(i) == 'h' && str.charAt(i+1) == 'i') {
+                count ++;
+            }
+        }
+        return count;
+    }
+
+    public boolean catDog(String str) {
+        int catCount = 0;
+        int dogCount = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if(str.substring(i,i+3).equals("cat")) {
+                catCount++;
+            }
+        }
+        for (int j = 0; j < str.length(); j++) {
+            if(str.substring(j,j+3).equals("dog")) {
+                dogCount++;
+            }
+        }
+
+        if(catCount == dogCount){
+            return true;
+        }
+        return false;
+    }
+
+
+
+
+
+
 
 
 
