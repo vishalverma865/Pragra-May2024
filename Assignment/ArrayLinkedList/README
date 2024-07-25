@@ -1,0 +1,8 @@
+E-Commerce Inventory Management System is a project which is use to keep track of products and their details.
+It comes with multiple features like Adding/removing items to/from the inventory. One can update items details.
+Project is built with the principle of OOP where:-
+ - Encapsulation is used to hiding the important properties and prevent it direct access from the main class
+ - Inheritance is used to access the properties and methods of its super class.
+
+ Here List collection interface is used to implement ArrayList and LinkedList.
+ try catch and throw exception is used to handle expected exceptions during run time.

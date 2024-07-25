@@ -12,4 +12,7 @@ public class FullTimeEmployee extends Employee{
         double salaryOf = super.calculatePay() * 40;
         return salaryOf;
     }
+
+
+
 }

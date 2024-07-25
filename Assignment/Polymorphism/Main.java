@@ -10,5 +10,6 @@ public class Main {
 
        System.out.println( user1.calculatePay());
        System.out.println( user2.calculatePay());
+        System.out.println(user1);
     }
 }

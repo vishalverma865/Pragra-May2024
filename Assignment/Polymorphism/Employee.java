@@ -15,4 +15,12 @@ public class Employee {
         return this.salary;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "employeeID=" + employeeID +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
